@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+body {
+  height: 100%;
+  color: var(--main_text_color);
+  background-color: var(--main_bg_color);
+}
+
 header {
   color: var(--alt_text_color);
   background-color: var(--alt_bg_color);
@@ -41,9 +47,9 @@ header nav ul li {
   padding: 0 10px 0 0;
 }
 
-body {
-  color: var(--main_text_color);
-  background-color: var(--main_bg_color);
+/* To keep footer on bottom */
+main {
+  flex: 1 0 auto;
 }
 
 main>article {
@@ -55,11 +61,12 @@ main>article>section {
 }
 
 article>h2 {
-  padding: 0 20px;
+  padding: 0 10px;
   border: 1px solid var(--temp_border_color);
 }
 
 footer {
+  flex-shrink: 0;
   padding: 30px;
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -84,35 +91,19 @@ footer h2 {
   display: flex;
 }
 
-.workLayout aside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 10px 15px;
-  border: 1px solid var(--alt_temp_border_color);
-}
-
 .applicationLayout {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  
   flex-wrap: wrap;
   color: var(--alt_text_color);
   position: relative;
-}
-
-.applicationLayout img{
-  margin: 10px;
+  width: 100%;
+  align-items: center;
 }
 
 .applicationLayout img:hover{
-  order: 1;
   cursor: crosshair;
-}
-
-.applicationLayout h3{
-  margin: 10px 15px;
-  top: -60px;
-  position: relative;
 }
 
 .contactUs {
@@ -132,3 +123,39 @@ footer h2 {
   padding-left: 10px;
 }
 
+.firstApplication {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  padding: 5px 0 0 100px;
+  border: 1px solid var(--alt_temp_border_color);
+}
+
+.firstApplication img{
+  flex: 2 2 300px;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+.firstApplication h3{
+  margin: 0px 0px;
+  top: 280px;
+  left: -290px;
+  position: relative;
+}
+
+.otherApplication {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0 5px 130px;
+  border: 1px solid var(--temp_border_color);
+  width: 50%;
+}
+
+.otherApplication h3{
+  margin: 10px 15px;
+  top: 220px;
+  left: -260px;
+  position: relative;
+}
