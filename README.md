@@ -10,4 +10,4 @@ https://tonypoku-ghub.github.io/hw-work-portfolio/
 
 # Screenshot
 
-![image](https://user-images.githubusercontent.com/60792525/162255541-f812441f-0b28-4bd5-8002-4402aa8581e5.png)
+![image](https://user-images.githubusercontent.com/60792525/163688842-471fa301-126e-4b5e-95d6-11a873c75f28.png)
