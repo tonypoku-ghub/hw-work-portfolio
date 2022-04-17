@@ -2,7 +2,7 @@
 
 # Intro
 
-In this assignment, I built a starter page that represents my portfolio of work.
+In this assignment, I built a starter page that represents my portfolio of work. This is an evolving project and will be further enhanced as my portfolio of projects continues to grow. 
 
 # Link to porfolio
 
