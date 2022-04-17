@@ -137,7 +137,8 @@ footer p {
 .aboutMe img {
   padding: 0;
   border: 3px solid var(--app_label_bg_color);
-  rotate: 45deg;
+  /* rotate: 45deg; Does not work on Chrome. Replaced with transform*/ 
+  transform: rotate(45deg);
   margin-left: 32px;
 }
 
